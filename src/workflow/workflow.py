@@ -22,7 +22,7 @@ up your Python script to best utilise the :class:`Workflow` object.
 from __future__ import print_function, unicode_literals
 
 import binascii
-import cPickle
+import _pickle as cPickle
 from copy import deepcopy
 import json
 import logging
